@@ -48,7 +48,7 @@
     </div>
 
     <h1>Local Video Shuffle Privacy Policy</h1>
-    <p>Last Updated: July 4, 2026</p>
+    <p>Last Updated: July 14, 2026</p>
     <p>This policy applies to Local Video Shuffle for macOS (Mac App Store and direct-distribution builds).</p>
 
     <section>
@@ -76,37 +76,39 @@
 
     <section>
         <h2>4. Private Vault</h2>
-        <p>Private Vault stores imported videos as encrypted local files in the app's data area. Private Vault metadata is also encrypted locally.</p>
+        <p>Private Vault stores imported videos as encrypted local files in the app's data area without deleting the original files. Private Vault metadata is also encrypted locally.</p>
         <p>On macOS, the vault key is protected through the system Keychain when the native helper is available. Unlocking the vault uses the standard macOS authentication flow, such as Touch ID or device password, depending on the user's Mac and system settings.</p>
+        <p>Private Vault is not a backup feature and does not guarantee absolute confidentiality or recoverability. Keep the original file and a separate backup. See the <a href="terms.html">Terms of Use</a> for important security limitations.</p>
         <p>Deleting the Private Vault from inside the app removes the encrypted vault files and vault key material. Deleting only the app executable or app bundle may not run app code, so the app cannot guarantee cleanup in every unmanaged deletion path.</p>
     </section>
 
     <section>
-        <h2>5. Network Access</h2>
+        <h2>5. Local data retention and deletion</h2>
+        <p>Security-scoped bookmarks used to regain folder access, selected-folder information, settings, and per-video volume-leveling cache values are stored locally in the App's data area. They remain until you change the applicable setting or delete the App's data area.</p>
+        <p>Private Vault encrypted files, encrypted metadata, and key material remain until you delete individual vault items or the entire vault from inside the App, or delete the App's data area. Vault deletion is irreversible.</p>
+        <p>To remove the App and all related local data, first delete Private Vault inside the App, then remove the App and its app container. Contact support below if you need help.</p>
+    </section>
+
+    <section>
+        <h2>6. Network Access</h2>
         <p>Mac App Store builds receive updates through the App Store.</p>
-        <p>Non-App-Store builds may contact GitHub Releases to check whether an update is available. This check does not upload user videos.</p>
+        <p>Non-App-Store builds may send a network request to GitHub Releases to check whether an update is available. This request does not send videos, file contents, or usage analytics to the developer, but GitHub may process ordinary connection information such as an IP address.</p>
     </section>
 
     <section>
-        <h2>6. Third-Party Sharing</h2>
-        <p>This application does not transmit or share any data with third parties. It does not contain analytics tools
-            or advertising SDKs.</p>
+        <h2>7. Third-Party Services</h2>
+        <p>This application does not transmit or share user videos, file contents, or usage analytics with the developer, advertisers, or analytics providers. It contains no analytics or advertising SDKs.</p>
+        <p>If you email support, your email address, message, and attachments are processed by the email service you choose and Google's email infrastructure. Do not send sensitive videos, vault keys, passwords, or unnecessary personal data.</p>
     </section>
 
     <section>
-        <h2>7. GDPR and CCPA Compliance</h2>
-        <p><strong>GDPR:</strong> As this application does not collect or process personal data (Personal Data),
-            obligations as a Data Controller or Data Processor do not apply. However, it is designed to respect user
-            privacy fully.</p>
-        <p><strong>CCPA:</strong> As this application does not collect or sell consumer personal information (Personal
-            Information), opt-out procedures under CCPA are not required.</p>
-        <p>You can change which local folders to open at any time, delete Private Vault data from inside the app, and
-            remove remaining data by deleting the app and its data area (app container).</p>
+        <h2>8. Your choices and requests</h2>
+        <p>You can change which local folders to open at any time and delete individual Private Vault items or the entire vault from inside the App. For privacy questions or a request concerning information you sent through support, contact the email address below. Where applicable law gives you additional rights, requests will be handled under that law.</p>
     </section>
 
     <section>
         <h2>Contact</h2>
-        <p>For questions regarding this privacy policy, use the GitHub Issues link on the <a href="support.html">Support page</a> or contact the developer directly.</p>
+        <p>For questions regarding this privacy policy, email <a href="mailto:kouminiku@gmail.com?subject=Privacy%20-%20Local%20Video%20Shuffle">kouminiku@gmail.com</a> or use the <a href="support.html">Support page</a>.</p>
         <p>Terms of use and disclaimers are in the <a href="terms.html">Terms of Use</a>.</p>
     </section>
 </body>
