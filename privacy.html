@@ -48,7 +48,7 @@
     </div>
 
     <h1>Local Video Shuffle Privacy Policy</h1>
-    <p>Last Updated: July 14, 2026</p>
+    <p>Last Updated: July 16, 2026</p>
     <p>This policy applies to Local Video Shuffle for macOS (Mac App Store and direct-distribution builds).</p>
 
     <section>
@@ -76,7 +76,7 @@
     <section>
         <h2>4. Private Vault</h2>
         <p>Private Vault stores imported videos as encrypted local files in the app's data area without deleting the original files. Private Vault metadata is also encrypted locally.</p>
-        <p>On macOS, the vault key is protected through the system Keychain when the native helper is available. Unlocking the vault uses the standard macOS authentication flow, such as Touch ID or device password, depending on the user's Mac and system settings.</p>
+        <p>On macOS, the vault key is wrapped by macOS protected storage. Touch ID is requested when available before the App unwraps the key. If Touch ID is unavailable, the key remains protected by the current macOS user account's protected storage, but the App does not claim that every unlock requires a separate biometric or password prompt.</p>
         <p>Private Vault is not a backup feature. Encryption reduces risk but cannot fully prevent every situation, and recovery may not always be possible. Keep the original file and a separate backup. See the <a href="terms.html">Terms of Use</a> for important precautions.</p>
         <p>Deleting the Private Vault from inside the app removes the encrypted vault files and vault key material. Deleting only the app executable or app bundle may not run app code, so the app cannot guarantee cleanup in every unmanaged deletion path.</p>
     </section>
