@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+<style>
+.g{stroke:#c9a961}
+.a{stroke:#9fc4d6}
+.spin{transform-origin:200px 200px;animation:r 140s linear infinite}
+.rev{transform-origin:200px 200px;animation:r 90s linear infinite reverse}
+.n{fill:#f3e6bb;animation:p 5s ease-in-out infinite}
+.n2{animation-delay:-1.6s}.n3{animation-delay:-3.3s}
+@keyframes r{to{transform:rotate(360deg)}}
+@keyframes p{0%,100%{opacity:.45}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.spin,.rev,.n{animation:none}}
+</style>
+<circle class="g" cx="200" cy="200" r="194" stroke-width="1"/>
+<circle class="g" cx="200" cy="200" r="187" stroke-width=".6" opacity=".7"/>
+<circle class="g spin" cx="200" cy="200" r="177" stroke-width="7" stroke-dasharray="1 8.27" opacity=".75"/>
+<circle class="g rev" cx="200" cy="200" r="166" stroke-width=".7" stroke-dasharray="2 6" opacity=".6"/>
+<!-- squared circle -->
+<circle class="g" cx="200" cy="200" r="150" stroke-width="1.2"/>
+<path class="g" stroke-width="1.2" stroke-linejoin="round" d="M200 50 329.9 275H70.1Z"/>
+<circle class="g" cx="200" cy="200" r="75" stroke-width="1"/>
+<rect class="g" x="146.97" y="146.97" width="106.06" height="106.06" stroke-width="1"/>
+<circle class="g" cx="200" cy="200" r="53.03" stroke-width=".8" opacity=".8"/>
+<!-- network -->
+<g class="a" stroke-width=".8" opacity=".7">
+<path d="M200 50 329.9 125V275L200 350 70.1 275V125Z"/>
+<path d="M200 275 135.05 162.5H264.95Z"/>
+<path d="M200 200V275M200 200 135.05 162.5M200 200 264.95 162.5"/>
+<path d="M200 275V350M135.05 162.5 70.1 125M264.95 162.5 329.9 125"/>
+<path d="M200 50 135.05 162.5M200 50 264.95 162.5M70.1 275 135.05 162.5M70.1 275 200 275M329.9 275 264.95 162.5M329.9 275 200 275" opacity=".55"/>
+</g>
+<g>
+<circle class="n" cx="200" cy="50" r="4.5"/>
+<circle class="n n2" cx="329.9" cy="125" r="3.5"/>
+<circle class="n n3" cx="329.9" cy="275" r="4.5"/>
+<circle class="n" cx="200" cy="350" r="3.5"/>
+<circle class="n n2" cx="70.1" cy="275" r="4.5"/>
+<circle class="n n3" cx="70.1" cy="125" r="3.5"/>
+<circle class="n n3" cx="200" cy="275" r="3.5"/>
+<circle class="n" cx="135.05" cy="162.5" r="3.5"/>
+<circle class="n n2" cx="264.95" cy="162.5" r="3.5"/>
+<circle cx="200" cy="200" r="6.5" fill="#f3e6bb"/>
+<circle class="g" cx="200" cy="200" r="12" stroke-width=".8"/>
+</g>
+</svg>
