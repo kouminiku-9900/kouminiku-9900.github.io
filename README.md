@@ -17,7 +17,7 @@
 
 | 旧URL | 転送先 |
 | --- | --- |
-| `/` | `/alchemis/` |
+| `/` | `/local-shuffle/ios/privacy-ja.html`（iOS版ローカル動画シャッフルくんのプライバシーポリシーURL・サポートURLとしてApp Storeに登録済み。次のバージョン提出時にURLを差し替えたら `/alchemis/` に変えてよい） |
 | `/en.html` | `/local-shuffle/ios/privacy.html` |
 | `/privacy(-ja).html` `/support(-ja).html` `/terms(-ja).html` | `/local-shuffle/mac/` の同名ファイル |
 
