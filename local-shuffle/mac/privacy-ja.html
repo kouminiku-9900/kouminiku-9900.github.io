@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スーパーローカル動画シャッフルくん プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            color: #222;
+        }
+
+        section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .lang-switch a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lang-switch">
+        <a href="privacy.html">English</a>
+    </div>
+
+    <h1>スーパーローカル動画シャッフルくん プライバシーポリシー</h1>
+    <p>最終更新日: 2026年7月16日</p>
+    <p>本ポリシーは、macOS上で動作するスーパーローカル動画シャッフルくん (Mac App Store 版および直接配布版) に適用されます。</p>
+
+    <section>
+        <h2>1. データ収集について</h2>
+        <p>当アプリ自身は、ユーザーの個人情報、利用データ、識別子を収集しません。個人データを収集、販売、共有しません。アカウント作成やログインも不要です。広告、トラッキング、解析機能も含まれていません。ユーザーが任意にサポートメールを送った場合の取り扱いは「第三者サービス」に記載しています。</p>
+    </section>
+
+    <section>
+        <h2>2. データ処理について</h2>
+        <p>動画の読み込み、再生、Private Vaultの暗号化・復号など、アプリの主要なデータ処理はユーザーのデバイス内（ローカル）で行われます。ユーザー動画やファイル内容を処理のために外部サーバーへ送信することはありません。</p>
+    </section>
+
+    <section>
+        <h2>3. ローカル動画フォルダへのアクセス</h2>
+        <p>当アプリは、ユーザーが選択した動画フォルダを再生する目的でのみ、フォルダへのアクセス権限を要求します。</p>
+        <ul>
+            <li>アクセスは、ユーザーが明示的にフォルダを選択した場合にのみ行われます。</li>
+            <li>動画のデータを、分析、広告、その他の目的で使用することはありません。</li>
+            <li>ユーザー動画を外部サーバーへアップロードしません。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Private Vault</h2>
+        <p>Private Vault は、追加された動画の元ファイルを削除せず、アプリのデータ領域に暗号化コピーとして保存します。Private Vault のメタデータもローカルで暗号化されます。</p>
+        <p>macOSでは、VaultキーをmacOSの保護ストレージでラップします。Touch IDが利用できる場合、キーを解除する前にTouch IDを要求します。Touch IDが利用できない場合も、キーは現在のmacOSユーザーアカウントの保護ストレージで保護されますが、毎回個別の生体認証またはパスワード入力が必須であるとは案内しません。</p>
+        <p>Private Vaultはバックアップ機能ではありません。暗号化はリスクを減らしますが、すべての状況を完全に防げるものではなく、復旧できない場合もあります。重要な動画は元ファイルと独立したバックアップを保持してください。詳しい注意事項は<a href="terms-ja.html">利用規約・免責事項</a>に記載しています。</p>
+        <p>アプリ内からPrivate Vaultを削除すると、暗号化されたVaultファイルとVaultキー情報が削除されます。アプリ本体だけを手動で削除した場合、アプリの削除処理が実行されるとは限らないため、すべての削除経路でVaultファイルの削除を保証することはできません。</p>
+    </section>
+
+    <section>
+        <h2>5. ローカルデータの保持と削除</h2>
+        <p>フォルダへの再アクセスに使うsecurity-scoped bookmark、選択したフォルダの情報、設定値、および動画ごとの音量補正キャッシュは、アプリのデータ領域にローカル保存され、ユーザーが設定を変更するか、アプリのデータ領域を削除するまで保持されます。</p>
+        <p>Private Vaultの暗号化ファイル、暗号化メタデータおよびキー情報は、ユーザーがアプリ内の削除操作を行うか、アプリのデータ領域を削除するまで保持されます。個別のVault動画とVault全体はアプリ内から削除できます。削除は元に戻せません。</p>
+        <p>アプリ本体と関連するローカルデータをすべて消去する場合は、アプリ内でPrivate Vaultを削除した後、アプリとそのアプリコンテナを削除してください。サポートが必要な場合は下記窓口へ連絡してください。</p>
+    </section>
+
+    <section>
+        <h2>6. ネットワークアクセス</h2>
+        <p>Mac App Store版のアップデートはApp Store経由で提供されます。</p>
+        <p>App Store外で配布されるビルドでは、更新確認のためにGitHub Releasesへネットワーク要求を送信する場合があります。この確認で動画、ファイル内容、利用解析データを開発者へ送信しませんが、IPアドレスなど通常の通信情報はGitHubにより処理される場合があります。</p>
+    </section>
+
+    <section>
+        <h2>7. 第三者サービス</h2>
+        <p>当アプリは、ユーザー動画、ファイル内容、利用解析データを開発者、広告事業者または解析事業者へ送信・共有しません。解析ツールや広告SDKも含まれていません。</p>
+        <p>ユーザーがサポートメールを送信した場合、メールアドレス、本文、添付ファイルはユーザーが選択したメールサービスとGoogleのメール基盤で処理されます。機密動画、Vaultキー、パスワード、不要な個人情報を送信しないでください。</p>
+    </section>
+
+    <section>
+        <h2>8. ユーザーの選択と問い合わせ</h2>
+        <p>ユーザーは、開くローカルフォルダをいつでも選び直し、Private Vaultの個別データまたは全体をアプリ内から削除できます。プライバシーに関する質問や、サポート連絡として送信した情報の削除依頼は、下記メール窓口へ連絡してください。適用法令に基づく権利がある場合は、その法令に従って対応します。</p>
+    </section>
+
+    <section>
+        <h2>お問い合わせ</h2>
+        <p>本プライバシーポリシーに関するご質問は、<a href="mailto:kouminiku@gmail.com?subject=Privacy%20-%20Local%20Video%20Shuffle">kouminiku@gmail.com</a> または<a href="support-ja.html">サポートページ</a>からご連絡ください。</p>
+        <p>利用規約と免責事項は <a href="terms-ja.html">利用規約・免責事項</a> を参照してください。</p>
+    </section>
+    <p class="operator" style="font-size:13px;margin-top:24px"><a href="/alchemis/">運営・販売者情報</a></p>
+</body>
+
+</html>

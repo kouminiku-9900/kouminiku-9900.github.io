@@ -35,7 +35,7 @@ li { margin: 6px 0; }
 .works { list-style: none; padding: 0; }
 .works li { background: #fff; border: 1px solid #dcd8cf; border-radius: 6px; padding: 14px 18px; margin: 10px 0; }
 .works strong { display: block; }
-.works span { color: #6b6b6b; font-size: 14px; }
+.works span { display: block; color: #6b6b6b; font-size: 14px; }
 footer { max-width: 720px; margin: auto; padding: 0 20px 40px; color: #6b6b6b; font-size: 13px; }
 @media (max-width: 500px) {
   .meishi { padding: 28px 22px 24px; }
