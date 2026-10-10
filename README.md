@@ -6,7 +6,7 @@
 
 | パス | 内容 |
 | --- | --- |
-| `/alchemis/` | 事業者ページ。全アプリページのフッターの「運営・販売者情報」からリンク |
+| `/alchemis/` | 事業者サイト。Home（`index.html`）/ About（`about.html`）/ Works（`works.html`）の3ページ構成で、英語版は `en.html` / `about-en.html` / `works-en.html`。運営・販売者情報（代表者名・所在地・連絡先）は About だけに載せ、全アプリページのフッターの「運営・販売者情報」は `about.html` / `about-en.html` に張っている。Works にはストア公開済みのアプリだけを出す（未公開分はHTMLコメントで伏せてある） |
 | `/five-disc-changer/` | 5連ディスクチェンジャーポータブル（iOS）。`android/` に Android 版 |
 | `/local-shuffle/` | ローカル動画シャッフルくん。直下が Android、`ios/` が iOS、`mac/` が Mac 版 |
 | `/screentime-roast/` | スクリーンタイム煽り |
